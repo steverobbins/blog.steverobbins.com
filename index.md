@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Nothing to see here
+title: Steve's Posts
 ---
 {% include JB/setup %}
 
