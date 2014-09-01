@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Redis Management Module for Magento Released"
+title: "Redis Management Module Released"
 description: ""
 category: magento
-tags: [magento, php, plugin, redis, cache]
+tags: [magento, plugin, redis, cache]
 ---
 {% include JB/setup %}
 
