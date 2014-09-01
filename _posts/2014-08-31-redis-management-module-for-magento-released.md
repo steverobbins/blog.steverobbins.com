@@ -7,7 +7,9 @@ tags: [magento, php, plugin, redis, cache]
 ---
 {% include JB/setup %}
 
-[Steverobbins_Redismanager v1.2.2](https://github.com/steverobbins/Magento-Redismanager) is now available for download.
+## v1.2.2 Released
+
+Good news everyone! [Steverobbins_Redismanager v1.2.2](https://github.com/steverobbins/Magento-Redismanager) is now available for download.
 
 ## What does this module do?
 
