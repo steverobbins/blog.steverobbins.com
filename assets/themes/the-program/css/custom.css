@@ -55,3 +55,9 @@ a:hover {
 .layout-page .tag_box a {
     background: #ddd;
 }
+
+.unit-article ul,
+.unit-article ol,
+.unit-article dl {
+    padding-left: 20px;
+}
