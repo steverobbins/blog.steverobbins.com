@@ -5,37 +5,44 @@ description: "Works of Steve Robbins"
 ---
 {% include JB/setup %}
 
+An incomplete list of things I've worked on.
+
 ## Magento Stores
 
 ### [Smarthome](http://www.smarthome.com/)
 
-  * Migration from proprietary system to Magento platform
-  * Frontend theming
-  * Custom API for Open Box products
-  * USPS RMA return label module
-  * [Amazon-like cross sell module](http://i.imgur.com/EQJVwQq.png)
+* Migration from proprietary system to Magento platform
+* Frontend theming
+* Custom API for Open Box products
+* USPS RMA return label module
+* [Amazon-like cross sell module](http://i.imgur.com/EQJVwQq.png)
 
 ### [Tokidoki](http://shop.tokidoki.it/)
 
-  * Frontend theming
-  * AWS auto-scaling with [Ansible](http://www.ansible.com/home)
+* Frontend theming
+* AWS auto-scaling with [Ansible](http://www.ansible.com/home)
 
 ### [Alpinestars](http://www.alpinestars.com/)
 
-  * Frontend rebuild
-  * Proprietary ERP integration
+* Frontend rebuild
+* Proprietary ERP integration
+
+### [Braven](http://www.braven.com/)
+
+* Frontend rebuild
+* Ebay and Amazon integration
 
 ### [Dr. Phil's Book Store](http://www.thebooknook.com/)
 
-  * Ground up rebuild of frontend theme
-  * Configured and maintained 30+ Rackspace cloud servers (18 web heads)
-  * Deployments managed with [Capistrano](https://github.com/capistrano/capistrano)
-  * A2B and Ingram ERP integration
+* Ground up rebuild of frontend theme
+* Configured and maintained 30+ Rackspace cloud servers (18 web heads)
+* Deployments managed with [Capistrano](https://github.com/capistrano/capistrano)
+* A2B and Ingram ERP integration
 
 ### [My Cool Cell](http://www.mycoolcell.com/)
 
-  * ERP integration and migration to Magento platform (700k+ products)
-  * [B2B store and custom features](http://www.mycoolcell.net/)
+* ERP integration and migration to Magento platform (700k+ products)
+* [B2B store and custom features](http://www.mycoolcell.net/)
 
 ## Magento Modules
 
@@ -61,3 +68,4 @@ description: "Works of Steve Robbins"
 ## Misc
 
 * [Magento Cross Platform Integration](https://github.com/eyemagine/magento-integration)
+* [MySQL Page View Analytics](https://gist.github.com/steverobbins/b5bc9c85f120b631ed27)

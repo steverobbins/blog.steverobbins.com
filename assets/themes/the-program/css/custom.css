@@ -57,10 +57,24 @@ a:hover {
     background: #ddd;
 }
 
+.unit-article img {
+    margin: 10px auto;
+}
+
 .unit-article ul,
 .unit-article ol,
 .unit-article dl {
     padding-left: 20px;
+}
+
+.unit-article p code,
+.unit-article li code,
+pre {
+    background: #eee;
+    border: none;
+    color: inherit;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .the-footer {
