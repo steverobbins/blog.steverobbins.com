@@ -5,9 +5,11 @@ description: ""
 ---
 {% include JB/setup %}
 
-## Contact
+<img style="float: left; margin: 0 10px 10px 0;" alt="Steve Robbins" width="200" height="200" src="http://i.imgur.com/aRE7jg8.jpg" />
 
 steven.j.robbins@gmail.com
+
+<div style="clear:both"></div>
 
 ## Experience
 
