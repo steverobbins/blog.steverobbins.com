@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Nothing to see here
-tagline: ''
 ---
 {% include JB/setup %}
 
