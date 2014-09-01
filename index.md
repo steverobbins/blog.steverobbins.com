@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Steve's Coding Home
+title: Ramblings of a Web Dev
 ---
 {% include JB/setup %}
 
