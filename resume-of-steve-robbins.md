@@ -107,4 +107,4 @@ Proficient with Mac, Windows, Linux, Adobe Creative Suite, Microsoft Suite, PHP,
 
 ## Education
 
-### Foothill High School (Class of '08) - Tustin, California
+* Foothill High School (Class of '08) - Tustin, California
