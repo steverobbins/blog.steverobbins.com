@@ -36,6 +36,7 @@ a:hover {
     background-color: #ddd;
 }
 
+.body,
 .the-footer {
     word-wrap: break-word;
 }
@@ -60,4 +61,14 @@ a:hover {
 .unit-article ol,
 .unit-article dl {
     padding-left: 20px;
+}
+
+.the-footer {
+    background: #222;
+}
+
+@media only screen and (min-width: 1280px) {
+    .the-footer {
+        background: transparent;
+    }
 }
