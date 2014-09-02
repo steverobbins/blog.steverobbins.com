@@ -12,7 +12,7 @@ title : Coding Robot
 tagline: 
 author :
   name : Steve Robbins
-  email : steven.j.robbins@gmail.com
+  email : steve@codingrobot.io
   github : steverobbins
   stackoverflow : 763468/steve-robbins
   linkedin : steverobbins0
@@ -26,7 +26,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://steverobbins.github.io
+production_url : http://blog.codingrobot.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

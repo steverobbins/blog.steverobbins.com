@@ -28,12 +28,27 @@ a:hover {
     text-decoration: underline;
 }
 
+.the-header .unit-head .nav-global .logo {
+    margin-bottom: 20px;
+}
+
+.the-header .unit-head .nav-global .logo img {
+    height: 60px;
+    margin: 0 20px 0 0;
+}
+
 .the-header .unit-head .nav-global .logo a {
     color: black !important;
+    margin: 0;
+    padding: 0;
 }
 
 .the-header .unit-head .nav-global li a:hover {
     background-color: #ddd;
+}
+
+.the-header .unit-head .nav-global li.logo a:hover {
+    background-color: transparent;
 }
 
 .body,
@@ -81,7 +96,33 @@ pre {
     background: #222;
 }
 
+@media only screen and (min-width: 768px) {
+    .the-header .unit-head .nav-global .logo {
+        padding: 10px;
+        height: 60px;
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (min-width: 1280px) {
+    .the-footer {
+        background: transparent;
+    }
+}
+
+@media only screen and (min-width: 1410px) {
+    .the-header .unit-head .nav-global .logo {
+        height: auto;
+    }
+    .the-header .unit-head .nav-global .logo img {
+        height: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    .the-header .unit-head .nav-global .logo span {
+        text-align: center;
+        display: block;
+    }
     .the-footer {
         background: transparent;
     }
