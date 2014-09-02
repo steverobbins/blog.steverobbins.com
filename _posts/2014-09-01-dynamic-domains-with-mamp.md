@@ -2,7 +2,7 @@
 layout: post
 title: "Dynamic Domains with MAMP (the free way)"
 description: "Dynamically associate web urls with file system paths on your local developement system"
-category: 
+category: apache
 tags: [mamp, apache]
 ---
 {% include JB/setup %}
