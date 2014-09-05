@@ -68,4 +68,4 @@ An incomplete list of things I've worked on.
 ## Misc
 
 * [Magento Cross Platform Integration](https://github.com/eyemagine/magento-integration)
-* [MySQL Page View Analytics](https://gist.github.com/steverobbins/b5bc9c85f120b631ed27)
+* [Magento MySQL Page View Analytics](https://gist.github.com/steverobbins/b5bc9c85f120b631ed27)
