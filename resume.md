@@ -8,13 +8,13 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 <img style="float: left; margin: 0 10px 10px 0;" alt="Steve Robbins" width="200" height="200" src="http://i.imgur.com/aRE7jg8.jpg" />
 
-steven.j.robbins@gmail.com
+[steven.j.robbins@gmail.com](mailto:steven.j.robbins@gmail.com)
 
 <div style="clear:both"></div>
 
 ## Experience
 
-### Eyemagine Technology, LLC *(September 2012 - Present)*
+### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(9/2012 - Present)*
 
 #### Lead Software Developer
 
@@ -26,7 +26,7 @@ steven.j.robbins@gmail.com
 * Trains development team, holds weekly status meetings with developers, and writes technical specifications
 * Communicates with clients and Project Management/Account Rep team to assure systems developed meet expectations, perform well, and are completed on time
 
-### Rayhawk Corporation *(December 2010 - September 2012)*
+### [Rayhawk Corporation](http://goo.gl/GySeK6) *(12/2010 - 9/2012)*
 
 #### Web Developer
 
