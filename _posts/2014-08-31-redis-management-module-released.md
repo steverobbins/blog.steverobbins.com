@@ -11,6 +11,8 @@ tags: [magento, plugin, redis, cache]
 
 Good news everyone! [Steverobbins_Redismanager v1.2.2](https://github.com/steverobbins/Magento-Redismanager) is now available for download.
 
+<a href="https://github.com/steverobbins/Magento-Redismanager/archive/master.tar.gz" class="bigOlButton">Magento-Redismanager-master.tar.gz</a>
+
 ## What does this module do?
 
 This module allows a Magento admin to monitor and flush their Redis services.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dynamic Domains with MAMP (the free way)"
+title: "Dynamic Domains with MAMP (without MAMP Pro)"
 description: "Dynamically associate web urls with file system paths on your local developement system"
 category: apache
 tags: [mamp, apache]
