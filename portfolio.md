@@ -9,7 +9,7 @@ An incomplete list of things I've worked on.
 
 ## Magento Stores
 
-### [Smarthome](http://www.smarthome.com/)
+### [Smarthome](http://goo.gl/rMTtTi)
 
 * Migration from proprietary system to Magento platform
 * Frontend theming
@@ -17,32 +17,32 @@ An incomplete list of things I've worked on.
 * USPS RMA return label module
 * [Amazon-like cross sell module](http://i.imgur.com/EQJVwQq.png)
 
-### [Tokidoki](http://shop.tokidoki.it/)
+### [Tokidoki](http://goo.gl/xWFpfX)
 
 * Frontend theming
 * AWS auto-scaling with [Ansible](http://www.ansible.com/home)
 
-### [Alpinestars](http://www.alpinestars.com/)
+### [Alpinestars](http://goo.gl/Xz9CBG)
 
 * Frontend rebuild
 * Proprietary ERP integration
 
-### [Braven](http://www.braven.com/)
+### [Braven](http://goo.gl/Pr6Yw2)
 
 * Frontend rebuild
 * Ebay and Amazon integration
 
-### [Dr. Phil's Book Store](http://www.thebooknook.com/)
+### [Dr. Phil's Book Store](http://goo.gl/FgUcQ9)
 
 * Ground up rebuild of frontend theme
 * Configured and maintained 30+ Rackspace cloud servers (18 web heads)
 * Deployments managed with [Capistrano](https://github.com/capistrano/capistrano)
 * A2B and Ingram ERP integration
 
-### [My Cool Cell](http://www.mycoolcell.com/)
+### [My Cool Cell](hhttp://goo.gl/M0AKvZ)
 
 * ERP integration and migration to Magento platform (700k+ products)
-* [B2B store and custom features](http://www.mycoolcell.net/)
+* [B2B store and custom features](http://goo.gl/rG6FsU)
 
 ## Magento Modules
 
