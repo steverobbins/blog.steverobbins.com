@@ -29,7 +29,7 @@ By default, the caching system that comes with Magento is stored on the file sys
 
 Redis is the ideal caching system that uses memory instead of file system.  Installing Redis is relatively simple and configuring your Magento installation is easy, too.  [Magento has published documentation on how to configure Redis for your store](http://www.magentocommerce.com/knowledge-base/entry/redis-magento-ce-ee).
 
-## I'm on Community Edition.  Why don't I have Full Page Caching?
+## "I'm on Community Edition.  Why don't I have Full Page Caching?"
 
 Magento has made FPC an Enterprise only feature.  FPC adds an extra layer to Magento's caching ability.
 
