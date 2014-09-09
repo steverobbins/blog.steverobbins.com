@@ -7,7 +7,7 @@ tags: [magento, performance, mysql]
 ---
 {% include JB/setup %}
 
-On occation, when a new client signs, I need to get an idea of how much traffic their site gets and what sort of hosting setup would be required to host their site.
+On occation, when a new client signs, I need to get an idea of how much traffic their site gets and what sort of hosting setup would be required for their site.
 
 A quick and easy way is to query the log tables for visitor hits.  Here are a few MySQL queries I've used
 
