@@ -49,12 +49,3 @@ which isn't ideal (though I guess they could be parsed with some trickery... hmm
 
 This lead me to an `.htaccess` Rewrite solution, which means Apache only for now but I plan on coming up with Nginx support.
 
----
-
-For more details on the module and using Redis with Magento, check out these links:
-
-* [https://github.com/steverobbins/Magento-Redismanager](https://github.com/steverobbins/Magento-Redismanager)
-* [http://www.magentocommerce.com/knowledge-base/entry/redis-magento-ce-ee](http://www.magentocommerce.com/knowledge-base/entry/redis-magento-ce-ee)
-* [http://inchoo.net/ecommerce/magento/using-redis-cache-backend-and-session-storage-in-magento/](http://inchoo.net/ecommerce/magento/using-redis-cache-backend-and-session-storage-in-magento/)
-* [https://github.com/colinmollenhour/Cm_RedisSession](https://github.com/colinmollenhour/Cm_RedisSession)
-* [http://info.magento.com/rs/magentocommerce/images/MagentoECG-UsingRedisasaCacheBackendinMagento.pdf](http://info.magento.com/rs/magentocommerce/images/MagentoECG-UsingRedisasaCacheBackendinMagento.pdf)
