@@ -31,7 +31,7 @@ So I decided to employ a similar approach to a [personal site](http://permission
 
 I originally planned to use a controller and get the [`filemtime`](http://php.net/manual/en/function.filemtime.php) for each file, however I was met with some challenges.
 
-First off a controller wasn't ideal do to how it uses query params.  For instance
+First off a controller wasn't ideal due to how it uses query params.  For instance
 
     $this->getUrl(
         'staticversion/file/skin',
