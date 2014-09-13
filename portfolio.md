@@ -52,20 +52,20 @@ An incomplete list of things I've worked on.
 * View redis usage statistics
 * Configuration for multi-node environments
 
-### [Enhanced Shell Scripts](https://github.com/eyemaginesrobbins/Magento-Shell)
+### [Enhanced Shell Scripts](https://github.com/steverobbins/Magento-Shell)
 
 * Colored terminal output
 * Output automatically sent to var/log
 
-### [Simple Product Redirect](https://github.com/eyemaginesrobbins/Magento-SimpleRedirect)
+### [Simple Product Redirect](https://github.com/steverobbins/Magento-SimpleRedirect)
 
 * Redirects a customer from a simple product to it's parent configurable product
 
-### [Layered Nav More/Less Links](https://github.com/eyemagine/Magento-LayeredNavLimit)
+### [Layered Nav More/Less Links](https://github.com/steverobbins/Magento-LayeredNavLimit)
 
 * Limits the number of layered nav list elements to a configurable amount
 
 ## Misc
 
-* [Magento Cross Platform Integration](https://github.com/eyemagine/magento-integration)
-* [Magento MySQL Page View Analytics](https://gist.github.com/steverobbins/b5bc9c85f120b631ed27)
+* [Magento Cross Platform Integration](https://github.com/steverobbins/magento-integration)
+* [Magento MySQL Page View Analytics](http://blog.codingrobot.io/magento/visitor-analytics/)
