@@ -14,7 +14,7 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 ## Experience
 
-### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(9/2012 - Present)*
+### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(10/2012 - 9/2014)*
 
 #### Lead Software Developer
 
