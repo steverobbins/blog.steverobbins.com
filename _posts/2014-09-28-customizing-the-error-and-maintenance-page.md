@@ -75,12 +75,12 @@ So now we know that we can specify our own theme in `\config\skin`.  Let's creat
 * Copy `errors/default` to `errors/custom`
 * Change the value in `\config\skin` from `default` to `custom` in `errors/local.xml`
 
-```
-<?xml version="1.0"?>
-<config>
-    <skin>custom</skin>
-</config>
-```
+<pre>
+&lt;?xml version="1.0"?>
+&lt;config>
+    &lt;skin>custom&lt;/skin>
+&lt;/config>
+</pre>
 
 Now we have a separate skin that we can edit and theme, and we didn't have to modify any core files.
 
