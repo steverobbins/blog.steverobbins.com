@@ -9,6 +9,8 @@ tags: [magento, theme]
 
 This article will show you the correct way (no core mods) to implement your own error/maintenance page in Magento.
 
+[![Report Page](http://i.imgur.com/iKjRtjc.png)](https://github.com/steverobbins/Magento-Errorpage)
+
 # The `errors` directory
 
 Take a look inside the `errors` directory in the root of your Magento installation.  You should see the following files and folders:
