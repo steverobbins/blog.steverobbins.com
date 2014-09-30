@@ -14,6 +14,10 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 ## Experience
 
+### [Guidance Solutions, Inc.](http://goo.gl/ASyy34) *(9/2014 - Present)*
+
+#### Senior PHP Developer
+
 ### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(10/2012 - 9/2014)*
 
 #### Lead Software Developer

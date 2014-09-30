@@ -10,7 +10,7 @@ This is a place where you might find my ramblings or code snippets which may or 
 
 I'm a (hat wearing) web developer who likes to innovate and experiment with internet technologies.  My goal is to make the internet better.
 
-I work as a software developer with [Eyemagine Technology](http://goo.gl/bpN1Dy), specializing in the [Magento framework](http://magento.com/).
+I work as a software developer with [Guidance](http://goo.gl/ASyy34), specializing in the [Magento framework](http://magento.com/).
 
 ## Latest Posts
 
