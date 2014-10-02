@@ -8,7 +8,7 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Coding Robot
+title : Blog | Steve Robbins
 tagline: 
 author :
   name : Steve Robbins
@@ -92,7 +92,7 @@ JB :
   analytics :
     provider : google
     google : 
-        tracking_id : 'UA-16126282-18'
+        tracking_id : 'UA-16126282-19'
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
