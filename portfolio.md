@@ -5,8 +5,6 @@ description: "Works of Steve Robbins"
 ---
 {% include JB/setup %}
 
-An incomplete list of things I've worked on.
-
 ## Magento Stores
 
 ### [Smarthome](http://goo.gl/rMTtTi)
