@@ -22,13 +22,13 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 #### Lead Software Developer
 
-* Builds solutions for the Magento ecommerce platform including ERP integration, payment gateways, order processing, product manipulation, and much more
-* Constructs responsive Magento themes from layered Photoshop files, maintaining browser compatibility, utilizing latest technologies, and adhering to W3C standards
-* Develops custom applications using Zend Framework, Expression Engine, Wordpress, and custom solutions
-* Architects and maintains production environments.  Responsibilities include provisioning LAMP stacks, configuring and optimizing Apache or Nginx, load balancing web servers, MySQL replication, AWS autoscaling, and caching services such as Memcached or Redis
-* Code reviews, manages, and deploys production code using GIT (and SVN)
-* Trains development team, holds weekly status meetings with developers, and writes technical specifications
-* Communicates with clients and Project Management/Account Rep team to assure systems developed meet expectations, perform well, and are completed on time
+* Built solutions for the Magento ecommerce platform including ERP integration, payment gateways, order processing, product manipulation, and much more
+* Constructed responsive Magento themes from layered Photoshop files, maintained browser compatibility, utilized latest technologies, and adhered to W3C standards
+* Developed web applications using Zend Framework, Expression Engine, Wordpress, and custom solutions
+* Architected and maintained production environments.  Responsibilities included provisioning LAMP stacks, configuring and optimizing Apache or Nginx, load balancing web servers, MySQL replication, AWS autoscaling, and caching services such as Memcached or Redis
+* Conducted code reviews, managed and deployed production code using Git (with Capistran) and SVN
+* Trained development team, held weekly status meetings with developers, and wrote technical specifications
+* Communicated with clients and Project Management/Account Rep team to assure systems developed met expectations, performed well, and were completed on time
 
 ### [Rayhawk Corporation](http://goo.gl/GySeK6) *(12/2010 - 9/2012)*
 
