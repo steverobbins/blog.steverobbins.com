@@ -66,4 +66,4 @@ description: "Works of Steve Robbins"
 ## Misc
 
 * [Magento Cross Platform Integration](https://github.com/steverobbins/magento-integration)
-* [Magento MySQL Page View Analytics](http://blog.codingrobot.io/magento/visitor-analytics/)
+* [Magento MySQL Page View Analytics](http://blog.steverobbins.name/magento/visitor-analytics/)
