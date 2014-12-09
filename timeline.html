@@ -2,6 +2,25 @@
 <html>
     <head>
         <title>Timeline</title>
+        <script src="/assets/vis/vis.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.item').hover(function() {
+                    var company = $(this).attr('class')
+                        .replace('item', '')
+                        .replace('box', '')
+                        .replace('range', '')
+                        .trim();
+                    $('.item').filter(function() {
+                        return !$(this).hasClass(company);
+                    }).addClass('hide');
+                }, function() {
+                    $('.item.hide').removeClass('hide');
+                });
+            });
+        </script>
+        <link href="/assets/vis/vis.min.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
             body, html {
               font-family: sans-serif;
@@ -39,9 +58,10 @@
                 background: #fbe809;
                 border: black solid 1px;
             }
+            .vis.timeline .item.hide {
+                opacity: 0.3;
+            }
         </style>
-        <script src="/assets/vis/vis.min.js"></script>
-        <link href="/assets/vis/vis.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div id="key" class="vis timeline">
