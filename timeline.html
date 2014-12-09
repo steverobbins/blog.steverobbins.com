@@ -18,6 +18,10 @@
                 border: 1px solid black;
                 color: white;
             }
+            .vis.timeline .item.submodal {
+                background: #e24b37;
+                border: 1px solid black;
+            }
             .vis.timeline .item.teefury {
                 background: #00b9bd;
                 border: 1px solid black;
@@ -32,7 +36,7 @@
     </head>
     <body>
         <h3>Hi guys.  So I'm bored and I think it's weird how we've all jumped around from company to company in the Magento biz.  For my own amusement I started graphing out the timeline.  I think it would be interesting to see the interaction and how we all shuffled about.  We're probably more involved with each other than we know.</h3>
-        <h3>Anyway, if you feel like participating send me an email (steven.j.robbins@gmail.com) with your employment and interview dates and I'll throw you on here.  Feel free to share this with anyone I may have missed.</h3>
+        <h3>Anyway, if you feel like participating send me an email (steven.j.robbins@gmail.com) with your employment and interview dates (approximate is fine) and I'll throw you on here.  Feel free to share this with anyone I may have missed.</h3>
         <div id="visualization"></div>
         <script type="text/javascript">
             // DOM element where the Timeline will be attached
@@ -58,6 +62,12 @@
             items.add({
               group: 0,
               content: 'Interview',
+              start: '2013-11-09',
+              className: 'submodal'
+            });
+            items.add({
+              group: 0,
+              content: 'Interview',
               start: '2013-11-18',
               className: 'teefury'
             });
@@ -77,6 +87,7 @@
             <h2>Key</h2>
             <p class="item range eyemagine">Eyemagine Technology, LLC.</p>
             <p class="item range guidance">Guidance Solutions, Inc.</p>
+            <p class="item range submodal">Submodal</p>
             <p class="item range teefury">Tee Fury, LLC.</p>
             <p class="item range zther">Zther Interactive</p>
         </div>
