@@ -44,210 +44,7 @@
         <link href="/assets/vis/vis.min.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h3>Hi guys.  So I'm bored and I think it's weird how we've all jumped around from company to company in the Magento biz.  For my own amusement I started graphing out the timeline.  I think it would be interesting to see the interaction and how we all shuffled about.  We're probably more involved with each other than we know.</h3>
-        <h3>Anyway, if you feel like participating send me an email (steven.j.robbins@gmail.com) with your employment and interview dates (approximate is fine) and I'll throw you on here.  Feel free to share this with anyone I may have missed.</h3>
-        <div id="visualization"></div>
-        <script type="text/javascript">
-            // DOM element where the Timeline will be attached
-            var container = document.getElementById('visualization'),
-                groups = new vis.DataSet(),
-                items = new vis.DataSet(),
-                current = Date.now();
-
-            // Akili
-            groups.add({id: 0, content: 'Akili Wachspress'});
-            items.add({
-              group: 0,
-              content: 'Employed',
-              start: '2012-07-01',
-              end: '2013-11-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 0,
-              content: 'Employed',
-              start: '2013-11-01',
-              end: current,
-              className: 'zther'
-            });
-
-            // Alessandro
-            groups.add({id: 1, content: 'Alessandro Bassi'});
-            items.add({
-              group: 1,
-              content: 'Employed',
-              start: '2013-06-01',
-              end: '2014-04-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 1,
-              content: 'Employed',
-              start: '2014-04-01',
-              end: '2014-11-01',
-              className: 'volcom'
-            });
-            items.add({
-              group: 1,
-              content: 'Employed',
-              start: '2014-11-01',
-              end: current,
-              className: 'separation'
-            });
-
-            // Evan
-            groups.add({id: 2, content: 'Evan Zhou'});
-            items.add({
-              group: 2,
-              content: 'Employed',
-              start: '2011-03-01',
-              end: '2012-12-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 2,
-              content: 'Employed (DCKAP Technologies)',
-              start: '2012-12-01',
-              end: '2013-11-01',
-            });
-            items.add({
-              group: 2,
-              content: 'Employed',
-              start: '2013-11-01',
-              end: current,
-              className: 'teefury'
-            });
-
-            // Juito
-            groups.add({id: 3, content: 'Juito Hartanto'});
-            items.add({
-              group: 3,
-              content: 'Employed',
-              start: '2013-09-01',
-              end: '2014-10-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 3,
-              content: 'Employed',
-              start: '2014-10-01',
-              end: current,
-              className: 'separation'
-            });
-
-            // Matisse
-            groups.add({id: 4, content: 'Matisse Laurel'});
-            items.add({
-              group: 4,
-              content: 'Employed',
-              start: '2012-01-01',
-              end: '2013-01-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 4,
-              content: 'Employed',
-              start: '2013-01-01',
-              end: '2014-01-01',
-              className: 'teefury'
-            });
-
-            // Steve
-            groups.add({id: 5, content: 'Steve Robbins'});
-            items.add({
-              group: 5,
-              content: 'Employed',
-              start: '2012-10-01',
-              end: '2014-09-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 5,
-              content: 'Interview',
-              start: '2013-10-28',
-              className: 'zther'
-            });
-            items.add({
-              group: 5,
-              content: 'Interview',
-              start: '2013-11-09',
-              className: 'submodal'
-            });
-            items.add({
-              group: 5,
-              content: 'Interview',
-              start: '2013-11-18',
-              className: 'teefury'
-            });
-            items.add({
-              group: 5,
-              content: 'Employed',
-              start: '2014-09-01',
-              end: '2014-12-01',
-              className: 'guidance'
-            });
-            items.add({
-              group: 5,
-              content: 'Employed',
-              start: '2014-12-01',
-              end: current,
-              className: 'volcom'
-            });
-
-            // Thi
-            groups.add({id: 6, content: 'Thi Them'});
-            items.add({
-              group: 6,
-              content: 'Employed',
-              start: '2011-06-01',
-              end: '2013-06-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 6,
-              content: 'Employed',
-              start: '2013-07-01',
-              end: '2013-12-01',
-              className: 'submodal'
-            });
-            items.add({
-              group: 6,
-              content: 'Employed',
-              start: '2014-01-01',
-              end: current,
-              className: 'teefury'
-            });
-
-            // Youn
-            groups.add({id: 7, content: 'Youn Kim'});
-            items.add({
-              group: 7,
-              content: 'Employed',
-              start: '2013-10-01',
-              end: '2014-09-01',
-              className: 'eyemagine'
-            });
-            items.add({
-              group: 7,
-              content: 'Employed (Beauty Counter)',
-              start: '2014-10-01',
-              end: '2014-12-01',
-              className: 'beautycounter'
-            });
-            items.add({
-              group: 7,
-              content: 'Employed',
-              start: '2014-12-01',
-              end: current,
-              className: 'separation'
-            });
-
-            var timeline = new vis.Timeline(container);
-            timeline.setGroups(groups);
-            timeline.setItems(items);
-        </script>
         <div id="key" class="vis timeline">
-            <h2>Key</h2>
             <p class="item range eyemagine">Eyemagine Technology, LLC.</p>
             <p class="item range guidance">Guidance Solutions, Inc.</p>
             <p class="item range submodal">Submodal</p>
@@ -256,5 +53,228 @@
             <p class="item range volcom">Volcom</p>
             <p class="item range zther">Zther Interactive</p>
         </div>
+        <div id="visualization"></div>
+        <script type="text/javascript">
+            // DOM element where the Timeline will be attached
+            var container = document.getElementById('visualization'),
+                groups = new vis.DataSet(),
+                items = new vis.DataSet(),
+                current = Date.now(),
+                groupId = -1;
+
+            // Akili
+            groups.add({id: ++groupId, content: 'Akili Wachspress'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2012-07-01',
+              end: '2013-11-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-11-15',
+              end: current,
+              className: 'zther'
+            });
+
+            // Alessandro
+            groups.add({id: ++groupId, content: 'Alessandro Bassi'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-06-01',
+              end: '2014-04-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-04-15',
+              end: '2014-11-01',
+              className: 'volcom'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-11-15',
+              end: current,
+              className: 'separation'
+            });
+
+            // Donna
+            groups.add({id: ++groupId, content: 'Donna Simoneau'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2012-10-01',
+              end: '2014-01-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-02-01',
+              end: current,
+              className: 'guidance'
+            });
+
+            // Evan
+            groups.add({id: ++groupId, content: 'Evan Zhou'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2011-03-01',
+              end: '2012-12-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed (DCKAP Technologies)',
+              start: '2012-12-15',
+              end: '2013-11-01',
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-11-15',
+              end: current,
+              className: 'teefury'
+            });
+
+            // Juito
+            groups.add({id: ++groupId, content: 'Juito Hartanto'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-09-01',
+              end: '2014-10-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-10-15',
+              end: current,
+              className: 'separation'
+            });
+
+            // Matisse
+            groups.add({id: ++groupId, content: 'Matisse Laurel'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2012-01-01',
+              end: '2013-01-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-01-15',
+              end: '2014-01-01',
+              className: 'teefury'
+            });
+
+            // Steve
+            groups.add({id: ++groupId, content: 'Steve Robbins'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2012-10-01',
+              end: '2014-09-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Interview',
+              start: '2013-10-28',
+              className: 'zther'
+            });
+            items.add({
+              group: groupId,
+              content: 'Interview',
+              start: '2013-11-09',
+              className: 'submodal'
+            });
+            items.add({
+              group: groupId,
+              content: 'Interview',
+              start: '2013-11-18',
+              className: 'teefury'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-09-15',
+              end: '2014-12-01',
+              className: 'guidance'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-12-15',
+              end: current,
+              className: 'volcom'
+            });
+
+            // Thi
+            groups.add({id: ++groupId, content: 'Thi Them'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2011-06-01',
+              end: '2013-06-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-07-01',
+              end: '2013-12-01',
+              className: 'submodal'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-01-01',
+              end: current,
+              className: 'teefury'
+            });
+
+            // Youn
+            groups.add({id: ++groupId, content: 'Youn Kim'});
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2013-10-01',
+              end: '2014-09-01',
+              className: 'eyemagine'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed (Beauty Counter)',
+              start: '2014-10-01',
+              end: '2014-12-01',
+              className: 'beautycounter'
+            });
+            items.add({
+              group: groupId,
+              content: 'Employed',
+              start: '2014-12-01',
+              end: current,
+              className: 'separation'
+            });
+
+            var timeline = new vis.Timeline(container, null, {
+                showCurrentTime: false,
+                clickToUse: true,
+                orientation: 'top'
+            });
+            timeline.setGroups(groups);
+            timeline.setItems(items);
+        </script>
+        <p>Click timeline to interact</p>
     </body>
 </html>
