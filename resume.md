@@ -14,9 +14,18 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 ## Experience
 
-### [Guidance Solutions, Inc.](http://goo.gl/ASyy34) *(9/2014 - Present)*
+### [Kering](http://goo.gl/A5XNUe) *(10/2014 - Present)*
+
+#### Senior Magento Developer - Volcom Entertainment
+
+### [Guidance Solutions, Inc.](http://goo.gl/ASyy34) *(9/2014 - 12/2014)*
 
 #### Senior PHP Developer, Tech Lead
+
+* Engineered customizations for the Magento platform
+* Integrated Magento with ERP, UPS APIs, and payment gateways
+* Worked closely with Project Managers to assign tickets to appropriate resources and verified quality of completed work
+* Communicated directly with clients finalize requirements and address challenges
 
 ### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(10/2012 - 9/2014)*
 
