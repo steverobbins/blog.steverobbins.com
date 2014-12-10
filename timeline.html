@@ -2,13 +2,18 @@
 <html>
     <head>
         <title>Timeline</title>
+        <link rel="image_src" href="/assets/img/timeline-preview.png" type="image/png" />
         <link href="/assets/vis/vis.min.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
             body, html {
               font-family: sans-serif;
             }
+            h3 {
+                margin-bottom: 5px;
+            }
             #key p {
                 position: inherit;
+                margin: 0 0 10px;
             }
             .vis.timeline .item.eyemagine {
                 background: #faa61a;
@@ -48,6 +53,7 @@
     <body>
         <p>Because I started loosing track of what happened to all of us...</p>
         <div id="key" class="vis timeline">
+            <h3>Company Key</h3>
             <p class="item range eyemagine">Eyemagine Technology, LLC.</p>
             <p class="item range guidance">Guidance Solutions, Inc.</p>
             <p class="item range submodal">Submodal</p>
@@ -57,7 +63,7 @@
             <p class="item range zther">Zther Interactive</p>
         </div>
         <div id="visualization"></div>
-        <p>Click timeline to interact</p>
+        <p>Click on the timeline above to enabled zoom and drag-and-drop features</p>
         <script src="/assets/vis/vis.min.js"></script>
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
         <script>
