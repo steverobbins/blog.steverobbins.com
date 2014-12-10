@@ -2,24 +2,6 @@
 <html>
     <head>
         <title>Timeline</title>
-        <script src="/assets/vis/vis.min.js"></script>
-        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-        <script>
-            $(document).ready(function() {
-                $('.item').hover(function() {
-                    var company = $(this).attr('class')
-                        .replace('item', '')
-                        .replace('box', '')
-                        .replace('range', '')
-                        .trim();
-                    $('.item').filter(function() {
-                        return !$(this).hasClass(company);
-                    }).addClass('hide');
-                }, function() {
-                    $('.item.hide').removeClass('hide');
-                });
-            });
-        </script>
         <link href="/assets/vis/vis.min.css" rel="stylesheet" type="text/css" />
         <style type="text/css">
             body, html {
@@ -74,8 +56,10 @@
             <p class="item range zther">Zther Interactive</p>
         </div>
         <div id="visualization"></div>
-        <script type="text/javascript">
-            // DOM element where the Timeline will be attached
+        <p>Click timeline to interact</p>
+        <script src="/assets/vis/vis.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script>
             var container = document.getElementById('visualization'),
                 groups = new vis.DataSet(),
                 items = new vis.DataSet(),
@@ -296,18 +280,30 @@
             });
             timeline.setGroups(groups);
             timeline.setItems(items);
-        </script>
-        <p>Click timeline to interact</p>
-        <script type="text/javascript">
-          var _gaq = _gaq || [];
-          _gaq.push(['_setAccount', 'UA-16126282-18']);
-          _gaq.push(['_trackPageview']);
 
-          (function() {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-          })();
+            $(document).ready(function() {
+                $('.item').hover(function() {
+                    var company = $(this).attr('class')
+                        .replace('item', '')
+                        .replace('box', '')
+                        .replace('range', '')
+                        .trim();
+                    $('.item').filter(function() {
+                        return !$(this).hasClass(company);
+                    }).addClass('hide');
+                }, function() {
+                    $('.item.hide').removeClass('hide');
+                });
+            });
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-16126282-18']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
         </script>
     </body>
 </html>
