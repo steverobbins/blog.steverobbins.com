@@ -216,7 +216,7 @@
             items.add({
               group: groupId,
               content: 'Employed',
-              start: '2014-12-15',
+              start: '2014-12-09',
               end: current,
               className: 'volcom'
             });
@@ -290,7 +290,9 @@
             var timeline = new vis.Timeline(container, null, {
                 showCurrentTime: false,
                 clickToUse: true,
-                orientation: 'top'
+                orientation: 'top',
+                start: current - 1000 * 60 * 60 * 24 * 365 * 1.5,
+                end: current
             });
             timeline.setGroups(groups);
             timeline.setItems(items);
