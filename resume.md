@@ -25,7 +25,7 @@ redirect_from: "/resume-of-steve-robbins.html"
 * Engineered customizations for the Magento platform
 * Integrated Magento with ERP, UPS APIs, and payment gateways
 * Worked closely with Project Managers to assign tickets to appropriate resources and verified quality of completed work
-* Communicated directly with clients finalize requirements and address challenges
+* Communicated directly with clients to finalize requirements and address challenges
 
 ### [Eyemagine Technology, LLC](http://goo.gl/bpN1Dy) *(10/2012 - 9/2014)*
 
