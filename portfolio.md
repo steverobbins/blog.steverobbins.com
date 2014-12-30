@@ -37,7 +37,7 @@ description: "Works of Steve Robbins"
 * Deployments managed with [Capistrano](https://github.com/capistrano/capistrano)
 * A2B and Ingram ERP integration
 
-### [My Cool Cell](hhttp://goo.gl/M0AKvZ)
+### [My Cool Cell](http://goo.gl/M0AKvZ)
 
 * ERP integration and migration to Magento platform (700k+ products)
 * [B2B store and custom features](http://goo.gl/rG6FsU)
