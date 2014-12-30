@@ -16,7 +16,7 @@ redirect_from: "/resume-of-steve-robbins.html"
 
 ### [Kering](http://goo.gl/A5XNUe) *(10/2014 - Present)*
 
-#### Senior Magento Developer - Volcom Entertainment
+#### Senior Magento Developer - Volcom Headquarters
 
 ### [Guidance Solutions, Inc.](http://goo.gl/ASyy34) *(9/2014 - 12/2014)*
 
