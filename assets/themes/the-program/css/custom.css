@@ -174,3 +174,12 @@ input.bigOlButton {
         background: transparent;
     }
 }
+
+.meta {
+    border-top: 1px solid #bbb;
+    padding-top: 20px;
+}
+
+.unit-article .meta .list-linear .list-head {
+    margin-right: 10px;
+}
