@@ -8,9 +8,9 @@ This is a place where you might find my ramblings or code snippets which may or 
 
 ## About Me
 
-I'm a (hat wearing) web developer who likes to innovate and experiment with new ideas.  I want to make the internet better.
+I'm a (hat wearing) web developer who likes to innovate and experiment.  I want to make the internet better.
 
-I work as a software developer with [Kering](http://goo.gl/A5XNUe) at [Volcom](http://goo.gl/i6zjX9).
+I work as a developer at [Separation Degrees One](http://goo.gl/3Ob14v).
 
 ## Latest Posts
 
